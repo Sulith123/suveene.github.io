@@ -16,13 +16,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="flex flex-row mx-auto gap-5">
-        <div>About Me</div>
-        <div>Experience</div>
-        <div>Projects</div>
-        <div>Other Stuff</div>
-      </div>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex flex-row mx-auto gap-5 font-mono p-3 w-fit mt-5">
+          <div>About Me</div>
+          <div>Experience</div>
+          <div>Projects</div>
+          <div>Other Stuff</div>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

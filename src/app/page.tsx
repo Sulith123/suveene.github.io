@@ -1,11 +1,12 @@
 import Image from "next/image";
+import ExpeirenceCard from "./components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex mx-auto w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          About Me
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 font-mono">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 lg:flex">
+        <p className="mx-auto justify-center p-3">
+          ABOUT ME
         </p>
       </div>
 
@@ -31,7 +32,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:grid-cols-3 lg:text-left">
+      <div className="flex flex-row gap-5 ">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group w-fit rounded-lg border border-transparent p-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -61,34 +62,37 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <p className="mb-3 text-md font-semibold">
-            Google Scholar
+            Linkedin
           </p>
         </a>
 
-        {/* <a
+        <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <p className="mb-3 text-md font-semibold">
-            Twitter
+            Google Scholar
           </p>
-        </a> */}
+        </a>
         
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex mx-auto w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+        <p className="mx-auto justify-center p-3 my-5">
           EXPERIENCE
         </p>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex mx-auto w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <div className="grid grid-cols-2 mx-auto gap-5">
+      <ExpeirenceCard company="Augmented Human Lab" role="Research Intern" period="2024 May - present" image="/augmented-human-lab.jpg" />
+      </div>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+        <p className="mx-auto justify-center p-3">
           PROJECTS
         </p>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+        <p className="mx-auto justify-center p-3">
           OTHER STUFF
         </p>
       </div>
