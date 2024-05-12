@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 font-mono">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 lg:flex">
-        <p className="mx-auto justify-center p-3">ABOUT ME</p>
+        <p className="mx-auto justify-center p-3 underline">ABOUT ME</p>
       </div>
 
       <div className="flex flex-row md:w-[70%] mt-3">
@@ -67,10 +67,10 @@ export default function Home() {
         </a>
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
-        <p className="mx-auto justify-center p-3 my-5">EXPERIENCE</p>
+        <p className="mx-auto justify-center p-3 my-5 underline">EXPERIENCE</p>
       </div>
       {/* Add location, website URL to Exp card */}
-      <div className="grid grid-cols-2 mx-auto gap-5">
+      <div className="grid grid-cols-2 mx-auto gap-5 items-center">
         <ExpeirenceCard
           company="Augmented Human Lab"
           role="Research Intern"
@@ -107,18 +107,20 @@ export default function Home() {
           period="2022 Nov - 2023 Aug"
           image="/nus-logo.jpg"
         />
+         <div className="col-span-2 col-start-1 flex justify-center">
         <ExpeirenceCard
           company="oDoc"
           role="Product and Operations Intern"
           period="2021 Sep - 2022 Jul"
           image="/odoc.png"
         />
+        </div>
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
-        <p className="mx-auto justify-center p-3">PROJECTS</p>
+        <p className="mx-auto justify-center p-3 underline">PROJECTS</p>
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
-        <p className="mx-auto justify-center p-3">OTHER STUFF</p>
+        <p className="mx-auto justify-center p-3 underline">OTHER STUFF</p>
       </div>
     </main>
   );
