@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { ExternalLinkIcon } from "lucide-react";
 
 type ExperienceCardprops = {
   company: string;
@@ -20,8 +21,8 @@ const ExpeirenceCard = ({
     <div>
       <div className="flex flex-row p-3 border-2 border-black rounded-md mx-auto">
         <div className="mr-6">
-          <a className="text-md font-semibold" href={url}>{company}</a>
-          <p>{role}</p>
+          <p className="font-bold">{role}</p>
+          <a className="text-md font-semibold underline" target="_blank" href={url}>{company}</a> 
           <p>{period}</p>
         </div>
         <Image

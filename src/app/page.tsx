@@ -3,13 +3,13 @@ import ExpeirenceCard from "./components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 font-mono bg-white">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24 font-mono bg-white">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 lg:flex">
         <p className="mx-auto justify-center p-3 underline">ABOUT ME</p>
       </div>
 
-      <div className="flex flex-row md:w-[70%] mt-3">
-        <div className="w-[50%]">
+      <div className="flex flex-col lg:flex-row md:w-[70%] mt-3">
+        <div className="lg:w-[50%]">
           <Image
             className="mx-auto rounded-md"
             src="/Suveen.jpg"
@@ -19,7 +19,7 @@ export default function Home() {
             priority
           />
         </div>
-        <div className="p-3 w-[80%] mx-auto">
+        <div className="p-3 lg:w-[80%] lg:mx-auto">
           <p className="text-xl font-semibold">Hi, I&apos;m Suveen Ellawela</p>
           <p className="mt-3">
             I study Computer Engineering at National University of Singapore.
@@ -70,7 +70,7 @@ export default function Home() {
         <p className="mx-auto justify-center p-3 my-5 underline">EXPERIENCE</p>
       </div>
       {/* Add location, website URL to Exp card */}
-      <div className="grid grid-cols-2 mx-auto gap-5 items-center">
+      <div className="grid  grid-cols-1 lg:grid-cols-2 lg:mx-auto lg:gap-5 gap-3 items-center">
         <ExpeirenceCard
           company="Augmented Human Lab"
           role="Research Intern"
@@ -113,7 +113,7 @@ export default function Home() {
           image="/nus-logo.jpg"
           url="https://www.nus.edu.sg/"
         />
-         <div className="col-span-2 col-start-1 flex justify-center">
+         <div className="lg:col-span-2 lg:col-start-1 flex justify-center">
         <ExpeirenceCard
           company="oDoc"
           role="Product and Operations Intern"
