@@ -69,7 +69,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
         <p className="mx-auto justify-center p-3 my-5">EXPERIENCE</p>
       </div>
-      {/* Add location to Exp card */}
+      {/* Add location, website URL to Exp card */}
       <div className="grid grid-cols-2 mx-auto gap-5">
         <ExpeirenceCard
           company="Augmented Human Lab"
