@@ -69,12 +69,49 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
         <p className="mx-auto justify-center p-3 my-5">EXPERIENCE</p>
       </div>
+      {/* Add location to Exp card */}
       <div className="grid grid-cols-2 mx-auto gap-5">
         <ExpeirenceCard
           company="Augmented Human Lab"
           role="Research Intern"
           period="2024 May - present"
           image="/augmented-human-lab.jpg"
+        />
+        <ExpeirenceCard
+          company="FoloUp"
+          role="Co-Founder"
+          period="2023 Nov - present"
+          image="/FoloUp.png"
+        />
+        <ExpeirenceCard
+          company="Aristotle"
+          role="Software Engineer (part-time)"
+          period="2023 Feb - 2024 May"
+          image="/aristotle.jpg"
+        />
+        <ExpeirenceCard
+          company="Nat. Univeristy of Singapore"
+          role="Teaching Assistant"
+          period="2023 Aug - 2023 Dec"
+          image="/nus-logo.jpg"
+        />
+        <ExpeirenceCard
+          company="MyStorage"
+          role="Software Engineer Intern"
+          period="2023 May - 2023 Jul"
+          image="/mystorage.jpg"
+        />
+        <ExpeirenceCard
+          company="Nat. Univeristy of Singapore"
+          role="Research Assistant"
+          period="2022 Nov - 2023 Aug"
+          image="/nus-logo.jpg"
+        />
+        <ExpeirenceCard
+          company="oDoc"
+          role="Product and Operations Intern"
+          period="2021 Sep - 2022 Jul"
+          image="/odoc.png"
         />
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">

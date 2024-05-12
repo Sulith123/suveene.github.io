@@ -16,7 +16,7 @@ const ExpeirenceCard = ({
 }: ExperienceCardprops) => {
   return (
     <div>
-      <div className="flex flex-row p-3 border border-red-400 rounded-md">
+      <div className="flex flex-row p-3 border border-red-400 rounded-md mx-auto">
         <div className="mr-6">
           <p className="text-md font-semibold">{company}</p>
           <p>{role}</p>
