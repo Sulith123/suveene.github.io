@@ -3,7 +3,7 @@ import ExpeirenceCard from "./components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 font-mono">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 font-mono bg-white">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 lg:flex">
         <p className="mx-auto justify-center p-3 underline">ABOUT ME</p>
       </div>
@@ -76,36 +76,42 @@ export default function Home() {
           role="Research Intern"
           period="2024 May - present"
           image="/augmented-human-lab.jpg"
+          url="https://www.ahlab.org/"
         />
         <ExpeirenceCard
           company="FoloUp"
           role="Co-Founder"
           period="2023 Nov - present"
           image="/FoloUp.png"
+          url="https://www.folo-up.co/"
         />
         <ExpeirenceCard
           company="Aristotle"
           role="Software Engineer (part-time)"
           period="2023 Feb - 2024 May"
           image="/aristotle.jpg"
+          url="https://aristotlehq.com/"
         />
         <ExpeirenceCard
           company="Nat. Univeristy of Singapore"
           role="Teaching Assistant"
           period="2023 Aug - 2023 Dec"
           image="/nus-logo.jpg"
+          url="https://www.nus.edu.sg/"
         />
         <ExpeirenceCard
           company="MyStorage"
           role="Software Engineer Intern"
           period="2023 May - 2023 Jul"
           image="/mystorage.jpg"
+          url="https://www.mystorage.vn"
         />
         <ExpeirenceCard
           company="Nat. Univeristy of Singapore"
           role="Research Assistant"
           period="2022 Nov - 2023 Aug"
           image="/nus-logo.jpg"
+          url="https://www.nus.edu.sg/"
         />
          <div className="col-span-2 col-start-1 flex justify-center">
         <ExpeirenceCard
@@ -113,6 +119,7 @@ export default function Home() {
           role="Product and Operations Intern"
           period="2021 Sep - 2022 Jul"
           image="/odoc.png"
+          url="https://www.odoc.life/"
         />
         </div>
       </div>

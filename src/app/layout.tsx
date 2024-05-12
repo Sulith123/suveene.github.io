@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-row mx-auto gap-5 font-mono p-3 w-fit mt-5">
+        <div className="flex flex-row mx-auto gap-5 font-mono font-semi-bold p-3 w-fit mt-5">
           <div>About Me</div>
           <div>Experience</div>
           <div>Projects</div>

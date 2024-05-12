@@ -6,6 +6,7 @@ type ExperienceCardprops = {
   role: string;
   period: string;
   image: string;
+  url: string;
 };
 
 const ExpeirenceCard = ({
@@ -13,12 +14,13 @@ const ExpeirenceCard = ({
   role,
   period,
   image,
+  url
 }: ExperienceCardprops) => {
   return (
     <div>
-      <div className="flex flex-row p-3 border border-red-400 rounded-md mx-auto">
+      <div className="flex flex-row p-3 border-2 border-black rounded-md mx-auto">
         <div className="mr-6">
-          <p className="text-md font-semibold">{company}</p>
+          <a className="text-md font-semibold" href={url}>{company}</a>
           <p>{role}</p>
           <p>{period}</p>
         </div>
