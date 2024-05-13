@@ -29,41 +29,70 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-row gap-5 ">
+      <div className="flex flex-row gap-5 p-3">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group w-fit rounded-lg border border-transparent p-3"
+          href="https://github.com/SuveenE"
+          className="group w-fit rounded-lg border border-transparent py-3 px-1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="mb-3 text-md font-semibold ">Github</p>
+          {/* <p className="mb-3 text-md font-semibold ">Github</p> */}
+          <Image
+            className="ml-auto rounded-md"
+            src="/github-logo.png"
+            alt="company logo"
+            width={30}
+            height={30}
+            priority
+          />
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group w-fit rounded-lg border border-transparent p-3 "
+          href="https://twitter.com/SuveenE"
+          className="group w-fit rounded-lg border border-transparent py-3 px-1 "
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="mb-3 text-md font-semibold">Twitter</p>
+          <Image
+            className="ml-auto rounded-md"
+            src="/x-logo.png"
+            alt="company logo"
+            width={30}
+            height={30}
+            priority
+          />
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group w-fit rounded-lg border border-transparent p-3 "
+          href="https://www.linkedin.com/in/suveen-ellawela/"
+          className="group w-fit rounded-lg border border-transparent py-3 px-1 "
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="mb-3 text-md font-semibold">Linkedin</p>
+          <Image
+            className="ml-auto rounded-md"
+            src="/linkedin.jpg"
+            alt="company logo"
+            width={30}
+            height={30}
+            priority
+          />{" "}
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 "
+          href="https://scholar.google.com/citations?hl=en&user=EPo-WiEAAAAJ"
+          className="group rounded-lg border border-transparent py-3 px-1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="mb-3 text-md font-semibold">Google Scholar</p>
+          <Image
+            className="ml-auto rounded-md"
+            src="/google-scholar.png"
+            alt="company logo"
+            width={30}
+            height={30}
+            priority
+          />{" "}
         </a>
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
@@ -113,14 +142,14 @@ export default function Home() {
           image="/nus-logo.jpg"
           url="https://www.nus.edu.sg/"
         />
-         <div className="lg:col-span-2 lg:col-start-1 flex justify-center">
-        <ExpeirenceCard
-          company="oDoc"
-          role="Product and Operations Intern"
-          period="2021 Sep - 2022 Jul"
-          image="/odoc.png"
-          url="https://www.odoc.life/"
-        />
+        <div className="lg:col-span-2 lg:col-start-1 flex justify-center">
+          <ExpeirenceCard
+            company="oDoc"
+            role="Product and Operations Intern"
+            period="2021 Sep - 2022 Jul"
+            image="/odoc.png"
+            url="https://www.odoc.life/"
+          />
         </div>
       </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
