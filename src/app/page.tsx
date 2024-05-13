@@ -218,6 +218,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
         <p id="other-stuff" className="mx-auto justify-center p-3 underline">OTHER STUFF</p>
       </div>
+      <div>Built by Suveen with Next.js and tailwind.</div>
     </main>
   );
 }
