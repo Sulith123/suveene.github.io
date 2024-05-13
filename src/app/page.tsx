@@ -24,7 +24,9 @@ export default function Home() {
           <p className="mt-3">
             I study Computer Engineering at National University of Singapore.
             Currently I am working as a Research Intern at the Augmented Human
-            Lab.
+            Lab. I also co-founded FoloUp, an AI powered interviwer that helps with 
+            mass feedback collection. I am passionaite about LLMs, Deep Learning, AI agents, 
+            Human Computer Interaction and Startups.
           </p>
         </div>
       </div>
