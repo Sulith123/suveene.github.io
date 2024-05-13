@@ -8,7 +8,7 @@ export default function Home() {
         <p className="mx-auto justify-center p-3 underline">ABOUT ME</p>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:w-[70%] mt-3">
+      <div className="flex flex-col lg:flex-row md:w-[70%] mt-3 items-center">
         <div className="lg:w-[50%]">
           <Image
             className="mx-auto rounded-md"
@@ -22,11 +22,38 @@ export default function Home() {
         <div className="p-3 lg:w-[80%] lg:mx-auto">
           <p className="text-xl font-semibold">Hi, I&apos;m Suveen Ellawela</p>
           <p className="mt-3">
-            I study Computer Engineering at National University of Singapore.
-            Currently I am working as a Research Intern at the Augmented Human
-            Lab. I also co-founded FoloUp, an AI powered interviwer that helps with 
-            mass feedback collection. I am passionaite about LLMs, Deep Learning, AI agents, 
-            Human Computer Interaction and Startups.
+            I study <span className="font-semibold">Computer Engineering</span> at National University of Singapore.
+            Currently, I am working as a{" "}
+            <span className="font-semibold">Research Intern</span> on{" "}
+            <a
+              className="font-semibold underline"
+              href="https://ahlab.org/project/aisee/"
+              target="_blank"
+            >
+              AI See
+            </a>
+            , a wearable device for the visually impaired, at the{" "}
+            <a
+              className="font-semibold underline"
+              href="https://ahlab.org"
+              target="_blank"
+            >
+              Augmented Human Lab
+            </a>
+            .
+          </p>
+          <p className="mt-3">
+            I also co-founded <a
+              className="font-semibold underline"
+              href="https://folo-up.co/"
+              target="_blank"
+            >FoloUp</a>, where we provide <span className="font-semibold">AI-powered in-depth
+            qualitative interviews</span>. I am passionaite about LLMs, Deep Learning,
+            AI agents, Human Computer Interaction and Startups.
+          </p>
+          <p className="mt-3">
+          I am passionaite about LLMs, Deep Learning,
+            AI agents, Human Computer Interaction and Startups.
           </p>
         </div>
       </div>
