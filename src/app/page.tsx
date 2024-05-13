@@ -1,10 +1,11 @@
 import Image from "next/image";
-import ExpeirenceCard from "./components";
+import ExpeirenceCard from "./components/experience-card";
+import ProjectCard from "./components/projects-card";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24 font-mono bg-white">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 lg:flex">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 mb-8 lg:flex">
         <p className="mx-auto justify-center p-3 underline">ABOUT ME</p>
       </div>
 
@@ -22,8 +23,8 @@ export default function Home() {
         <div className="p-3 lg:w-[80%] lg:mx-auto">
           <p className="text-xl font-semibold">Hi, I&apos;m Suveen Ellawela</p>
           <p className="mt-3">
-            I study <span className="font-semibold">Computer Engineering</span> at National University of Singapore.
-            Currently, I am working as a{" "}
+            I study <span className="font-semibold">Computer Engineering</span>{" "}
+            at National University of Singapore. Currently, I am working as a{" "}
             <span className="font-semibold">Research Intern</span> on{" "}
             <a
               className="font-semibold underline"
@@ -43,17 +44,24 @@ export default function Home() {
             .
           </p>
           <p className="mt-3">
-            I also co-founded <a
+            I also co-founded{" "}
+            <a
               className="font-semibold underline"
               href="https://folo-up.co/"
               target="_blank"
-            >FoloUp</a>, where we provide <span className="font-semibold">AI-powered in-depth
-            qualitative interviews</span>. I am passionaite about LLMs, Deep Learning,
-            AI agents, Human Computer Interaction and Startups.
+            >
+              FoloUp
+            </a>
+            , where we provide{" "}
+            <span className="font-semibold">
+              AI-powered in-depth qualitative interviews
+            </span>
+            . I am passionaite about LLMs, Deep Learning, AI agents, Human
+            Computer Interaction and Startups.
           </p>
           <p className="mt-3">
-          I am passionaite about LLMs, Deep Learning,
-            AI agents, Human Computer Interaction and Startups.
+            I am passionaite about LLMs, Deep Learning, AI agents, Human
+            Computer Interaction and Startups.
           </p>
         </div>
       </div>
@@ -124,7 +132,7 @@ export default function Home() {
           />{" "}
         </a>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
         <p className="mx-auto justify-center p-3 my-5 underline">EXPERIENCE</p>
       </div>
       {/* Add location, website URL to Exp card */}
@@ -181,10 +189,33 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
         <p className="mx-auto justify-center p-3 underline">PROJECTS</p>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-5 lg:flex">
+      <div className="grid lg:w-[70%] grid-cols-1 lg:grid-cols-1 lg:mx-auto lg:gap-5 gap-3 items-center">
+        <ProjectCard
+          name="Bera Tiles"
+          image="/beratiles.jpg"
+          description="Bera Tiles is a mobile app that gamifies the essence of Sri Lankan traditional drums. The app features digital renditions of over 6 Sri Lankan traditional drums, coupled with a reflex-testing game akin to Piano Tiles."
+          period="2022"
+          url="https://play.google.com/store/apps/details?id=com.suveen.bera_tiles_1"
+        />
+        {/* <ProjectCard
+          name="Bera Tiles"
+          image="/beratiles.jpg"
+          description="Bera Tiles is a mobile app that gamifies the essence of Sri Lankan traditional drums. The app features digital renditions of over 6 Sri Lankan traditional drums, coupled with a reflex-testing game akin to Piano Tiles."
+          period="2022"
+          url="https://play.google.com/store/apps/details?id=com.suveen.bera_tiles_1"
+        />
+        <ProjectCard
+          name="Bera Tiles"
+          image="/beratiles.jpg"
+          description="Bera Tiles is a mobile app that gamifies the essence of Sri Lankan traditional drums. The app features digital renditions of over 6 Sri Lankan traditional drums, coupled with a reflex-testing game akin to Piano Tiles."
+          period="2022"
+          url="https://play.google.com/store/apps/details?id=com.suveen.bera_tiles_1"
+        /> */}
+      </div>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
         <p className="mx-auto justify-center p-3 underline">OTHER STUFF</p>
       </div>
     </main>
