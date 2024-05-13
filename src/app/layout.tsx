@@ -17,11 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-white`}>
-        <div className="flex flex-row mx-auto gap-6 font-mono font-bold p-3 w-fit mt-5 bg-white">
-          <div className="cursor-pointer">About Me</div>
+        <div className="flex flex-row mx-auto gap-6 font-mono font-bold p-3 w-full mt-5 sticky top-0 bg-white">
+          <div className="cursor-pointer ml-auto">About Me</div>
           <div className="cursor-pointer">Experience</div>
           <div className="cursor-pointer">Projects</div>
-          <div className="cursor-pointer">Other Stuff</div>
+          <div className="cursor-pointer mr-auto">Other Stuff</div>
         </div>
         {children}
       </body>
