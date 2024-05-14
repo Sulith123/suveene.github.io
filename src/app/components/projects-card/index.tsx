@@ -19,16 +19,16 @@ const ProjectCard = ({
 }: ExperienceCardprops) => {
   return (
     <div>
-      <div className="flex flex-row p-3 border-2 border-black rounded-md mx-auto">
+      <div className="flex flex-col md:flex-row p-3 border-2 border-black rounded-md mx-auto">
         <Image
-          className="mr-auto rounded-md"
+          className="mx-auto md:mr-auto rounded-md"
           src={image}
           alt="company logo"
           width={280}
           height={280}
           priority
         />
-        <div className="ml-6">
+        <div className="md:ml-6">
           <a
             className="text-md font-semibold underline"
             target="_blank"
@@ -37,7 +37,7 @@ const ProjectCard = ({
             {name}
           </a>
           <p>{period}</p>
-          <p className="font-bold">{description}</p>
+          <p className="">{description}</p>
         </div>
       </div>
     </div>

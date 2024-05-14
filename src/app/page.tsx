@@ -5,8 +5,10 @@ import ProjectCard from "./components/projects-card";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24 font-mono bg-white">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 mb-8 lg:flex">
-        <p id="about-me" className="mx-auto justify-center p-3 underline">ABOUT ME</p>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 mb-8 flex">
+        <p id="about-me" className="mx-auto justify-center p-3 underline">
+          ABOUT ME
+        </p>
       </div>
 
       <div className="flex flex-col lg:flex-row md:w-[70%] mt-3 items-center">
@@ -132,8 +134,13 @@ export default function Home() {
           />{" "}
         </a>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
-        <p id="experience" className="mx-auto justify-center p-3 my-5 underline">EXPERIENCE</p>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 flex">
+        <p
+          id="experience"
+          className="mx-auto justify-center p-3 my-5 underline"
+        >
+          EXPERIENCE
+        </p>
       </div>
       {/* Add location, website URL to Exp card */}
       <div className="grid  grid-cols-1 lg:grid-cols-2 lg:mx-auto lg:gap-5 gap-3 items-center">
@@ -189,8 +196,10 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
-        <p id="projects" className="mx-auto justify-center p-3 underline">PROJECTS</p>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 flex">
+        <p id="projects" className="mx-auto justify-center p-3 underline">
+          PROJECTS
+        </p>
       </div>
       <div className="grid lg:w-[70%] grid-cols-1 lg:grid-cols-1 lg:mx-auto lg:gap-5 gap-3 items-center">
         <ProjectCard
@@ -215,8 +224,10 @@ export default function Home() {
           url="https://play.google.com/store/apps/details?id=com.suveen.bera_tiles_1"
         /> */}
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 lg:flex">
-        <p id="other-stuff" className="mx-auto justify-center p-3 underline">OTHER STUFF</p>
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3  my-8 flex">
+        <p id="other-stuff" className="mx-auto justify-center p-3 underline">
+          OTHER STUFF
+        </p>
       </div>
       <div>Built by Suveen with Next.js and tailwind.</div>
     </main>
