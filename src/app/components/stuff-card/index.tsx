@@ -2,24 +2,33 @@ import React from "react";
 import Image from "next/image";
 import { ExternalLinkIcon } from "lucide-react";
 
-type ExperienceCardprops = {
+type StuffCardprops = {
   name: string;
   description: string;
-  period: string;
   image: string;
   url: string;
 };
 
-const ProjectCard = ({
+const StuffCard = ({
   name,
   description,
-  period,
   image,
   url,
-}: ExperienceCardprops) => {
+}: StuffCardprops) => {
   return (
     <div>
-      <div className="flex flex-row p-3 border-2 border-black rounded-md mx-auto">
+      <div className="flex flex-col md:flex-row p-3 border-2 border-black rounded-md mx-auto">
+        <div className="mr-6">
+          {/* <a
+            className="text-md font-semibold underline"
+            target="_blank"
+            href={url}
+          >
+            {name}
+          </a> */}
+          <div>{name}</div>
+          <p className="font-bold">{description}</p>
+        </div>
         <Image
           className="mr-auto rounded-md"
           src={image}
@@ -28,20 +37,9 @@ const ProjectCard = ({
           height={280}
           priority
         />
-        <div className="ml-6">
-          <a
-            className="text-md font-semibold underline"
-            target="_blank"
-            href={url}
-          >
-            {name}
-          </a>
-          <p>{period}</p>
-          <p className="font-bold">{description}</p>
-        </div>
       </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default StuffCard;

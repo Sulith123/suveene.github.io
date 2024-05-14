@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ExpeirenceCard from "./components/experience-card";
 import ProjectCard from "./components/projects-card";
+import StuffCard from "./components/stuff-card";
 
 export default function Home() {
   return (
@@ -229,7 +230,10 @@ export default function Home() {
           OTHER STUFF
         </p>
       </div>
-      <div>Built by Suveen with Next.js and tailwind.</div>
+      <div className="grid lg:w-[70%] grid-cols-1 lg:grid-cols-2 lg:mx-auto lg:gap-5 gap-3 mb-10 items-center">
+        <StuffCard name="I like to take photos" description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera" image="/snapbysuv.jpeg" url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="/>
+      </div>
+      <div className="p-2 border-t-2 border-t-slate-500">Built by <a className="underline" href="#about-me">Suveen</a> with Next.js and tailwind.</div>
     </main>
   );
 }
