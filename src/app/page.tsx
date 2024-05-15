@@ -5,7 +5,7 @@ import StuffCard from "./components/stuff-card";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24 font-mono bg-white">
+    <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:pb-24 lg:px-24 lg:pt-16 font-mono bg-white">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-2xl font-bold m-3 mb-8 flex">
         <p id="about-me" className="mx-auto justify-center p-3 underline">
           ABOUT ME
@@ -57,14 +57,15 @@ export default function Home() {
             </a>
             , where we provide{" "}
             <span className="font-semibold">
-              AI-powered in-depth qualitative interviews
+              AI-powered in-depth qualitative interviews.
             </span>
-            . I am passionaite about LLMs, Deep Learning, AI agents, Human
-            Computer Interaction and Startups.
           </p>
           <p className="mt-3">
-            I am passionaite about LLMs, Deep Learning, AI agents, Human
-            Computer Interaction and Startups.
+            You can talk to me about{" "}
+            <span className="font-semibold">
+              LLMs, Deep Learning, AI agents, HCI, Software Engineering
+            </span>{" "}
+            and <span className="font-semibold">Startups</span>.
           </p>
         </div>
       </div>
