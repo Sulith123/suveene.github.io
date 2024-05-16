@@ -1,6 +1,6 @@
 import MovieCard from "./movie-card";
 
-export default function Home() {
+const Movies = ()=> {
   return (
     <main className="flex min-h-screen flex-col items-center p-6 lg:pb-12 lg:px-24 lg:pt-16 font-mono bg-white">
       <p className="font-semibold text-2xl mb-4">MY MOVIE RECCOMENDATIONS 📽️</p>
@@ -26,3 +26,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Movies;
