@@ -29,6 +29,7 @@ const StuffCard = ({
           <div className="font-bold my-2 mx-auto text-center">{name}{"\n"}</div>
           <p className="mx-auto my-2 text-center">{description}</p>
         </div>
+        <a href={url}>
         <Image
           className="mx-auto md:mr-auto rounded-md"
           src={image}
@@ -37,6 +38,7 @@ const StuffCard = ({
           height={280}
           priority
         />
+        </a>
       </div>
     </div>
   );
