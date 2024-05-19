@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme='light'>
       <head><link rel="shortcut icon" href="/dino.svg" /></head>
       <body className={`${inter.className} bg-white`}>
         <div className="flex flex-row mx-auto gap-3 md:gap-6 font-mono text-sm md:text-base font-bold p-3 w-full mt-5 sticky top-0 z-20 bg-white">
