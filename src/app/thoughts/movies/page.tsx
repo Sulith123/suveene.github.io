@@ -1,7 +1,7 @@
 const Movies = () => {
   return (
     <main className="flex min-h-screen flex-col items-center p-6 lg:pb-12 lg:px-24 lg:pt-16 font-mono bg-white">
-      <p className="font-semibold text-2xl mb-4">MY MOVIE RECCOMENDATIONS 📽️</p>
+      <p className="font-semibold text-2xl mb-4"><span className="text-3xl mr-2">🍿</span>MY MOVIE RECCOMENDATIONS</p>
       <div className="md:w-[60%]">
         <p className="my-5">
           I don&apos;t expect many visitors here, but for those who do, I
