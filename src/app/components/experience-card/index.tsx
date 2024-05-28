@@ -8,6 +8,7 @@ type ExperienceCardprops = {
   period: string;
   image: string;
   url: string;
+  location?: string
 };
 
 const ExpeirenceCard = ({
@@ -15,7 +16,8 @@ const ExpeirenceCard = ({
   role,
   period,
   image,
-  url
+  url,
+  location
 }: ExperienceCardprops) => {
   return (
     <div>
@@ -23,7 +25,7 @@ const ExpeirenceCard = ({
         <div className="mr-6">
           <p className="font-bold">{role}</p>
           <a className="text-md font-semibold underline" target="_blank" href={url}>{company}</a> 
-          <p>{period}</p>
+          <p>{period} {location? `(${location})`: ""}</p>
         </div>
         <Image
           className="ml-auto rounded-md"

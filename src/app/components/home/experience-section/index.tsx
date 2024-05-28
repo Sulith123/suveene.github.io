@@ -20,6 +20,7 @@ const ExperienceSection = () => {
           period="2024 May - present"
           image="/augmented-human-lab.jpg"
           url="https://www.ahlab.org/"
+          location="Singapore"
         />
         <ExpeirenceCard
           company="FoloUp"
@@ -27,6 +28,7 @@ const ExperienceSection = () => {
           period="2023 Nov - present"
           image="/FoloUp.png"
           url="https://www.folo-up.co/"
+          location="Singapore"
         />
         <ExpeirenceCard
           company="Aristotle"
@@ -34,6 +36,7 @@ const ExperienceSection = () => {
           period="2023 Feb - 2024 May"
           image="/aristotle.jpg"
           url="https://aristotlehq.com/"
+          location="Remote"
         />
         <ExpeirenceCard
           company="Nat. Univeristy of Singapore"
@@ -48,6 +51,7 @@ const ExperienceSection = () => {
           period="2023 May - 2023 Jul"
           image="/mystorage.jpg"
           url="https://www.mystorage.vn"
+          location="Vietnam"
         />
         <ExpeirenceCard
           company="Nat. Univeristy of Singapore"
@@ -63,6 +67,7 @@ const ExperienceSection = () => {
             period="2021 Sep - 2022 Jul"
             image="/odoc.png"
             url="https://www.odoc.life/"
+            location="Sri Lanka"
           />
         </div>
       </div>
