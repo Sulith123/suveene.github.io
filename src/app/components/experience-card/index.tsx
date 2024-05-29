@@ -25,7 +25,7 @@ const ExpeirenceCard = ({
         <div className="mr-6">
           <p className="font-bold">{role}</p>
           <a className="text-md font-semibold underline" target="_blank" href={url}>{company}</a> 
-          <p>{period} {location? `(${location})`: ""}</p>
+          <p >{period} <span className="hidden md:block">{location? `(${location})`: ""}</span></p>
         </div>
         <Image
           className="ml-auto rounded-md"

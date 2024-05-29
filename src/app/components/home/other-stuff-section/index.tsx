@@ -17,6 +17,12 @@ const OtherStuffSection = () => {
             image="/snapbysuv.jpeg"
             url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
           />
+          {/* <StuffCard
+            name="I like to take PHOTOS!"
+            description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera"
+            image="/snapbysuv.jpeg"
+            url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
+          /> */}
         </div>
       </div>
     </>
