@@ -12,8 +12,8 @@ const Header = () => {
   }, [router]);
 
   return (
-    <div className="w-full flex flex-row justify-center bg-lime-50 sticky top-0 z-20 ">
-      <div className="flex flex-row gap-3 md:gap-6 font-mono text-xs md:text-base font-bold p-3 w-fit my-3 z-25 rounded-md border-2 border-lime-100 bg-lime-50 px-5">
+    <div className="w-full flex flex-row justify-center bg-lime-50 sticky top-0 z-20 border-b-2 border-b-slate-500">
+      <div className="flex flex-row gap-3 md:gap-6 font-mono text-xs md:text-base font-bold p-3 w-fit my-3 z-25 rounded-md  bg-lime-50 px-5">
         <a
           href="/#about-me"
           className={`cursor-pointer  border-lime-300 ${
