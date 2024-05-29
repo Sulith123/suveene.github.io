@@ -1,49 +1,61 @@
-"use client"
-import { usePathname } from "next/navigation";
-import React from "react";
+"use client";
+import { usePathname, useRouter } from "next/navigation";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
+  const [url, setUrl] = useState("");
+  const router = useRouter();
   const pathname = usePathname();
-  console.log(pathname)
+
+  useEffect(() => {
+    setUrl(window.location.href);
+  }, [router]);
+
   return (
-    <>
-      <div className="flex flex-row mx-auto gap-3 md:gap-6 font-mono text-xs md:text-base font-bold p-3 w-full mt-5 sticky top-0 z-20 bg-white">
+    <div className="w-full flex flex-row justify-center bg-lime-50 sticky top-0 z-20 ">
+      <div className="flex flex-row gap-3 md:gap-6 font-mono text-xs md:text-base font-bold p-3 w-fit my-3 z-25 rounded-md border-2 border-lime-100 bg-lime-50 px-5">
         <a
           href="/#about-me"
-          className={`cursor-pointer ml-auto ${
-            pathname.includes("/#about-me") ? "border-b-2 border-red-500" : ""
+          className={`cursor-pointer  border-lime-300 ${
+            url.includes("/#about-me") ? "" : ""
           }hover:scale-110 text-center`}
         >
           About Me
         </a>
         <a
           href="/#experience"
-          className="cursor-pointer hover:scale-110 text-center"
+          className={`cursor-pointer border-lime-300 ${
+            url.includes("/#experience") ? " " : ""
+          }hover:scale-110 text-center`}
         >
           Experience
         </a>
         <a
           href="/#projects"
-          className="cursor-pointer hover:scale-110 text-center"
+          className={`cursor-pointer border-lime-300 ${
+            url.includes("/#projects") ? "" : ""
+          }hover:scale-110 text-center`}
         >
           Projects
         </a>
         <a
           href="/#other-stuff"
-          className="cursor-pointer hover:scale-110 text-center"
+          className={`cursor-pointer border-lime-300 ${
+            url.includes("/#other-stuff") ? "" : ""
+          }hover:scale-110 text-center`}
         >
           Other Stuff
         </a>
         <a
           href="/thoughts"
-          className={`cursor-pointer mr-auto border-lime-300 ${
+          className={`cursor-pointer  border-lime-300 ${
             pathname.includes("/thoughts") ? "border-b-4 " : ""
           }hover:scale-110 text-center`}
         >
           Thoughts
         </a>
       </div>
-    </>
+    </div>
   );
 };
 
