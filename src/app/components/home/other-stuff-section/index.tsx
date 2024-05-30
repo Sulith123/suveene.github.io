@@ -1,5 +1,6 @@
 import React from "react";
 import StuffCard from "../../stuff-card";
+import SquareStuffCard from "../../square-stuff-card";
 
 const OtherStuffSection = () => {
   return (
@@ -9,21 +10,29 @@ const OtherStuffSection = () => {
           OTHER STUFF
         </p>
       </div>
-      <div className="grid lg:w-[70%] grid-cols-1 lg:grid-cols-2 lg:mx-auto lg:gap-5 gap-3 mb-10 items-center">
-        <div className="lg:col-span-2 lg:col-start-1 flex justify-center">
+      <div className="grid lg:w-[70%] grid-cols-1 lg:grid-cols-2 mx-auto gap-3 mb-10 items-center">
+          <div  className="md:ml-auto justify-center">
           <StuffCard
             name="I like to take PHOTOS!"
             description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera"
             image="/snapbysuv.jpeg"
             url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
           />
-          {/* <StuffCard
-            name="I like to take PHOTOS!"
-            description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera"
-            image="/snapbysuv.jpeg"
-            url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
+          </div>
+          <div className="flex flex-col my-auto justify-center gap-3">
+          <SquareStuffCard
+            name="I like to hike and take long walks!"
+            description="Here's me during a hike in Vietnam."
+            image="/hike.jpeg"
+            url=""
+          />
+          {/* <SquareStuffCard
+            name="I like to hike and take long walks!"
+            description="Here's me during a hike in Vietnam"
+            image="/hike.jpeg"
+            url=""
           /> */}
-        </div>
+          </div>
       </div>
     </>
   );

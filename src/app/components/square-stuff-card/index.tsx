@@ -9,7 +9,7 @@ type StuffCardprops = {
   url: string;
 };
 
-const StuffCard = ({
+const SquareStuffCard = ({
   name,
   description,
   image,
@@ -17,7 +17,7 @@ const StuffCard = ({
 }: StuffCardprops) => {
   return (
     <div>
-      <div className="flex flex-col p-3 w-72 border-2 border-black rounded-md mx-auto">
+      <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md">
         <div className="mx-auto md:mr-6 items-center">
           {/* <a
             className="text-md font-semibold underline"
@@ -44,4 +44,4 @@ const StuffCard = ({
   );
 };
 
-export default StuffCard;
+export default SquareStuffCard;
