@@ -50,6 +50,7 @@ const Life = () => {
             13. Started working as a research intern at Augmented Human Lab at
             NUS.
           </p>
+          <p>14. Coming soon..................</p>
         </div>
       </div>
     </main>
