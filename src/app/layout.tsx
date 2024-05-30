@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme='light'>
       <head><link rel="shortcut icon" href="/dino.svg" /></head>
-      <body className={`${inter.className} bg-white`}>
+      <body className={`${inter.className} bg-white text-black`}>
         <Header />
         {children}
         <Footer />
