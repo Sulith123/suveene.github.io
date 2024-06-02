@@ -5,7 +5,7 @@ const Walk = () => {
     <main className="flex min-h-screen flex-col md:w-[66%] mx-auto p-6 lg:pb-12 lg:px-24 lg:pt-16 font-mono bg-white">
       <p className="font-semibold text-2xl mb-4 mx-auto">
         <span className="text-3xl mr-2 ">🚶</span>HOW WE WALKED ACROSS
-        SINGAPORE?
+        SINGAPORE
       </p>
 
       <div className=" flex flex-col-reverse gap-2 md:flex-row md:items-center">
