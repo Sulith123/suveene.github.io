@@ -240,7 +240,7 @@ const Walk = () => {
           </div>
         </div>
       </div>
-      <p className="font-semibold text-lg my-4 mx-auto">THE END.</p>
+      <p className=" my-2 mx-auto">- 2nd June 2024  -</p>
     </main>
   );
 };
