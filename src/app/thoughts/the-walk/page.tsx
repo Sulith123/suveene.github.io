@@ -8,7 +8,7 @@ const Walk = () => {
         SINGAPORE?
       </p>
 
-      <div className=" flex flex-col-reverse gap-2 md:flex-row">
+      <div className=" flex flex-col-reverse gap-2 md:flex-row md:items-center">
         <div className="flex flex-col md:w-[60%]">
           <p className="my-4 text-lg font-bold">TL;DR</p>
           <p className="mb-4">
