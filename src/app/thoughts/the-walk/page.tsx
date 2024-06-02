@@ -7,10 +7,10 @@ const Walk = () => {
         <span className="text-3xl mr-2 ">🚶</span>HOW WE WALKED ACROSS
         SINGAPORE?
       </p>
-      
+
       <div className=" flex flex-col-reverse gap-2 md:flex-row">
         <div className="flex flex-col md:w-[60%]">
-        <p className="my-4 text-lg font-bold">TL;DR</p>
+          <p className="my-4 text-lg font-bold">TL;DR</p>
           <p className="mb-4">
             We embarked on an adventurous walk across Singapore, starting from
             the west and ending in the east. Eighteen of us began the journey,
@@ -155,10 +155,12 @@ const Walk = () => {
         <p className="my-1">
           Huge shoutout to Malsha and Tharindu, the true heroes who were game
           for the last leg no matter what. After standing around for 5-10
-          minutes and feeling somewhat OK, we decided to give it a shot. And then there were 8.
+          minutes and feeling somewhat OK, we decided to give it a shot. And
+          then there were 8.
         </p>
         <p className="my-1">
-          Malsha wanted me to tell this story to my kids maybe that&apos;s why I continued.
+          Malsha wanted me to tell this story to my kids maybe that&apos;s why I
+          continued.
         </p>
         <Image
           className="mx-auto md:mr-auto rounded-md my-4"
@@ -176,8 +178,8 @@ const Walk = () => {
         </p>
         <p className="my-1">
           Everyone was exhausted and battling blisters on their feet. To make
-          things worse, we got soaked in the rain. Wearing ponchos, none of us
-          had the energy to hold an umbrella.
+          things worse, we got soaked in the rain. The ponchos we wore offered
+          little protection, and none of us had the energy to hold an umbrella.
         </p>
         <p className="my-1">
           We took it one kilometer at a time, and finally, we reached the end.
@@ -212,8 +214,8 @@ const Walk = () => {
           </div>
           <div className="flex flex-col gap-4">
             <p className="my-1 text-center">
-              Huge shoutout to (Get Go) Shreyas for being our 7-Eleven on
-              wheels, bringing us snacks and ponchos to conquer the rain.
+              (Get Go) Shreyas for being our &quot;7-Eleven on
+              wheels&quot;, bringing us snacks and ponchos, helping us tackle the rain.
             </p>
             <Image
               className="mx-auto md:mr-auto rounded-md my-4"
@@ -241,7 +243,7 @@ const Walk = () => {
           </div>
         </div>
       </div>
-      <p className=" my-2 mx-auto">- 2nd June 2024  -</p>
+      <p className=" my-2 mx-auto">- 2nd June 2024 -</p>
     </main>
   );
 };
