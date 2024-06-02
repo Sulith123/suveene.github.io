@@ -126,7 +126,7 @@ const Walk = () => {
 
         <p className="my-1">
           This part of the journey was definitely slower. We had multiple short
-          stops, and by this point, our group had thinned out to 14 walkers.
+          stops, and by this point, our group had thinned out to 12 walkers.
         </p>
         <Image
           className="mx-auto md:mr-auto rounded-md my-4"
