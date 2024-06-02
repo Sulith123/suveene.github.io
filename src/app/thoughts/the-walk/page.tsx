@@ -4,8 +4,7 @@ const Walk = () => {
   return (
     <main className="flex min-h-screen flex-col md:w-[66%] mx-auto p-6 lg:pb-12 lg:px-24 lg:pt-16 font-mono bg-white">
       <p className="font-semibold text-2xl mb-4 mx-auto">
-        <span className="text-3xl mr-2 ">🚶</span>HOW WE WALKED ACROSS
-        SINGAPORE
+        <span className="text-3xl mr-2 ">🚶</span>HOW WE WALKED ACROSS SINGAPORE
       </p>
 
       <div className=" flex flex-col-reverse gap-2 md:flex-row md:items-center">
@@ -31,8 +30,8 @@ const Walk = () => {
             <span className="font-semibold">Step count:</span> 67,000+
           </p>
           <p>
-            <span className="font-semibold">Route:</span> Tuas Link MRT ={">"} -
-            Spring Leaf Prata, West Coast (Dinner) ={">"}Commenwealth ={">"}{" "}
+            <span className="font-semibold">Route:</span> Tuas Link MRT ={">"}{" "}
+            Spring Leaf Prata, West Coast (Dinner) ={">"} Commenwealth ={">"}{" "}
             Clarke Quay ={">"} East Coast Park ={">"} Changi City Point
           </p>
           <p className="mt-4">
@@ -214,8 +213,8 @@ const Walk = () => {
           </div>
           <div className="flex flex-col gap-4">
             <p className="my-1 text-center">
-              (Get Go) Shreyas for being our &quot;7-Eleven on
-              wheels&quot;, bringing us snacks and ponchos, helping us tackle the rain.
+              (Get Go) Shreyas for being our &quot;7-Eleven on wheels&quot;,
+              bringing us snacks and ponchos, helping us tackle the rain.
             </p>
             <Image
               className="mx-auto md:mr-auto rounded-md my-4"
