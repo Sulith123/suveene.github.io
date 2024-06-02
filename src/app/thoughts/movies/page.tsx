@@ -35,6 +35,7 @@ const Movies = () => {
           Got to know about this classic from the movie Pitch Perfect.
         </div>
       </div>
+      <p className=" my-2 mt-6 mx-auto">- 21st May 2024 -</p>
     </main>
   );
 };
