@@ -7,9 +7,10 @@ const Walk = () => {
         <span className="text-3xl mr-2 ">🚶</span>HOW WE WALKED ACROSS
         SINGAPORE?
       </p>
-      <p className="mb-4 text-lg font-bold">TL;DR</p>
-      <div className=" flex flex-col gap-2 md:flex-row">
+      
+      <div className=" flex flex-col-reverse gap-2 md:flex-row">
         <div className="flex flex-col md:w-[60%]">
+        <p className="my-4 text-lg font-bold">TL;DR</p>
           <p className="mb-4">
             We embarked on an adventurous walk across Singapore, starting from
             the west and ending in the east. Eighteen of us began the journey,
