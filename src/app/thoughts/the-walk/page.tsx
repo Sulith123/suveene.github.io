@@ -45,7 +45,7 @@ const Walk = () => {
         <div>
           <Image
             className="mx-auto md:mr-auto rounded-md"
-            src="/thoughts/the-walk/map.jpg"
+            src="/thoughts/the-walk/map.JPG"
             alt="company logo"
             width={400}
             height={400}
