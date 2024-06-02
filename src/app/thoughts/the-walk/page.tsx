@@ -141,29 +141,32 @@ const Walk = () => {
         <p className="my-4 mt-8 text-lg font-bold">
           Breakfast at East Coast Park (40km)
         </p>
-        {/* <p className="my-1">
-          About two months ago, a few of us stumbled upon an Instagram reel
-          where a group of friends walked 64km across the country in 15 hours.
-          Inspired, we decided to give it a try. 
+        <p className="my-1">
+          Me and 3 others ALMOST dropped out at breakfast! In fact this photo
+          below, was taken right after we called it quits.
         </p>
         <p className="my-1">
-        We pitched the idea to others, our group grew to
-          18 adventurous souls ready to embark on this not-so-common-Friday-night-activity.
+          The breakfast break lasted nearly 45 minutes. When we stood up after
+          sitting for so long, our legs were in excruciating pain, and to top it
+          off, it was raining.
         </p>
-        
+
         <p className="my-1">
-          But why did we do this? We still don’t have a clear answer. Maybe, like
-          Forrest Gump felt like running, we just felt like walking a long
-          distance.
+          Huge shoutout to Malsha and Tharindu, the true heroes who were game
+          for the last leg no matter what. After standing around for 5-10
+          minutes and feeling somewhat OK, we decided to give it a shot. And then there were 8.
+        </p>
+        <p className="my-1">
+          Malsha wanted me to tell this story to my kids maybe that&apos;s why I continued.
         </p>
         <Image
-            className="mx-auto md:mr-auto rounded-md my-4"
-            src="/thoughts/the-walk/why.gif"
-            alt="company logo"
-            width={320}
-            height={320}
-            priority
-          /> */}
+          className="mx-auto md:mr-auto rounded-md my-4"
+          src="/thoughts/the-walk/breakfast.JPG"
+          alt="company logo"
+          width={320}
+          height={320}
+          priority
+        />
       </div>
       <div>
         <p className="my-4 mt-8 text-lg font-bold">The Final Push (50km)</p>
@@ -209,8 +212,7 @@ const Walk = () => {
           <div className="flex flex-col gap-4">
             <p className="my-1 text-center">
               Huge shoutout to (Get Go) Shreyas for being our 7-Eleven on
-              wheels, bringing us snacks and ponchos to conquer the
-              rain.
+              wheels, bringing us snacks and ponchos to conquer the rain.
             </p>
             <Image
               className="mx-auto md:mr-auto rounded-md my-4"
