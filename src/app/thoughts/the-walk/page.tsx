@@ -240,6 +240,7 @@ const Walk = () => {
           </div>
         </div>
       </div>
+      <p className="font-semibold text-lg my-4 mx-auto">THE END.</p>
     </main>
   );
 };
