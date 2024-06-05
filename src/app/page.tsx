@@ -3,6 +3,7 @@ import ProjectsSection from "./components/home/projects-section";
 import OtherStuffSection from "./components/home/other-stuff-section";
 import AboutMeSection from "./components/home/about-me-section";
 import Footer from "./components/home/footer";
+import FeaturesSection from "./components/home/features-section";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ExperienceSection />
       <ProjectsSection />
       <OtherStuffSection />
+      <FeaturesSection />
     </main>
   );
 }
