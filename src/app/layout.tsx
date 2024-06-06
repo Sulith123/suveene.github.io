@@ -7,10 +7,25 @@ import Footer from "./components/home/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Suveen",
+  title: "Suveen Ellawela",
   description: "About Suv.",
   icons: {
     icon: '/dino.svg',
+  },
+  openGraph: {
+    title: 'Suveen Ellawela',
+    description: 'About Suv.',
+    url: 'https://suveene.github.io/',
+    siteName: 'Suveen Ellawela',
+    images: [
+      {
+        url: '/Suveen.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
   },
 };
 
