@@ -21,17 +21,17 @@ const OtherStuffSection = () => {
           </div>
           <div className="flex flex-col my-auto justify-center gap-3">
           <SquareStuffCard
-            name="I like to hike and take long walks!"
+            name="I like to hike and outdoors!"
             description="Here's me during a hike in Vietnam."
             image="/hike.jpeg"
             url=""
           />
-          {/* <SquareStuffCard
-            name="I like to hike and take long walks!"
-            description="Here's me during a hike in Vietnam"
-            image="/hike.jpeg"
-            url=""
-          /> */}
+          <SquareStuffCard
+            name="I love to take long walks."
+            description="Recently, I walked across Singapore!"
+            image="/walk.JPG"
+            url="https://suveene.github.io/thoughts/the-walk"
+          />
           </div>
       </div>
     </>

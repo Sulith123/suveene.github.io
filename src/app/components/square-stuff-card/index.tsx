@@ -31,11 +31,11 @@ const SquareStuffCard = ({
         </div>
         <a href={url} target="_blank">
         <Image
-          className="mx-auto md:mr-auto rounded-md"
+          className="mx-auto md:mr-auto rounded-md max-h[240px] max-w[240px]"
           src={image}
           alt="company logo"
-          width={280}
-          height={280}
+          width={240}
+          height={240}
           priority
         />
         </a>
