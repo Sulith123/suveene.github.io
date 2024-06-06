@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Suveen Ellawela',
     images: [
       {
-        url: '/Suveen.jpg',
+        url: 'https://suveene.github.io/Suveen.jpg',
         width: 800,
         height: 600,
       },
