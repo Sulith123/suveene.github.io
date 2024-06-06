@@ -21,7 +21,7 @@ const OtherStuffSection = () => {
           </div>
           <div className="flex flex-col my-auto justify-center gap-3">
           <SquareStuffCard
-            name="I like to hike and outdoors!"
+            name="I like outdoors!"
             description="Here's me during a hike in Vietnam."
             image="/hike.jpeg"
             url=""
