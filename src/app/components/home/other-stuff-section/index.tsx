@@ -58,13 +58,30 @@ const OtherStuffSection = () => {
             </div>
           </div>
         </div>
-        <div className="md:ml-auto justify-center">
+        <div className="md:ml-auto flex flex-col my-auto justify-center gap-3">
           <StuffCard
             name="I like to take PHOTOS!"
             description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera"
             image="/snapbysuv.jpeg"
             url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
           />
+          <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md mx-auto">
+            <div className="mx-auto items-center">
+              <div className="font-bold  mx-auto text-center">
+                Movies.{"\n"}
+              </div>
+              <p className="text-center my-2">
+                Read{" "}
+                <a
+                  href="https://suveene.github.io/thoughts/movies"
+                  target="_blank"
+                  className="underline"
+                >
+                  my movie recommendations.
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
         <div className="flex flex-col my-auto justify-center gap-3">
           <div>
