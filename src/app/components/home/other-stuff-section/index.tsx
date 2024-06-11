@@ -39,32 +39,29 @@ const OtherStuffSection = () => {
                   Long walks.{"\n"}
                 </div>
                 <p className="mx-auto my-2 text-center">
-                  Recently, I walked across Singapore!
+                  Recently,{" "}
+                  <a
+                    href="https://suveene.github.io/thoughts/the-walk"
+                    target="_blank"
+                    className="underline"
+                  >
+                    I walked across Singapore!
+                  </a>
                 </p>
               </div>
-              <a
-                href="https://suveene.github.io/thoughts/the-walk"
-                target="_blank"
-              >
-                <Image
-                  className="mx-auto md:mr-auto rounded-md max-h[240px] max-w[240px]"
-                  src="/walk.JPG"
-                  alt="company logo"
-                  width={240}
-                  height={240}
-                  priority
-                />
-              </a>
+
+              <Image
+                className="mx-auto md:mr-auto rounded-md max-h[240px] max-w[240px]"
+                src="/walk.JPG"
+                alt="company logo"
+                width={240}
+                height={240}
+                priority
+              />
             </div>
           </div>
         </div>
         <div className="md:ml-auto flex flex-col my-auto justify-center gap-3">
-          <StuffCard
-            name="I like to take PHOTOS!"
-            description="Follow my instagram page where I share some photos I take from my phone and my papershoot camera"
-            image="/snapbysuv.jpeg"
-            url="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
-          />
           <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md mx-auto">
             <div className="mx-auto items-center">
               <div className="font-bold  mx-auto text-center">
@@ -81,6 +78,33 @@ const OtherStuffSection = () => {
                 </a>
               </p>
             </div>
+          </div>
+          <div className="flex flex-col p-3 w-72 border-2 border-black rounded-md mx-auto">
+            <div className="mx-auto md:mr-6 items-center">
+              <div className="font-bold my-2 mx-auto text-center">
+                I like to take PHOTOS!{"\n"}
+              </div>
+              <p className="mx-auto my-2 text-center">
+                Follow my{" "}
+                <a
+                  href="https://www.instagram.com/snapsbysuv?igsh=OGkwMjVwMWVvaHk="
+                  target="_blank"
+                  className="underline"
+                >
+                  instagram page
+                </a>{" "}
+                where I share some photos I take from my phone and my papershoot
+                camera.
+              </p>
+            </div>
+            <Image
+              className="mx-auto md:mr-auto rounded-md"
+              src="/snapbysuv.jpeg"
+              alt="company logo"
+              width={280}
+              height={280}
+              priority
+            />
           </div>
         </div>
         <div className="flex flex-col my-auto justify-center gap-3">
