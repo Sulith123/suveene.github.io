@@ -10,11 +10,10 @@ const Socials = () => {
     navigator.clipboard.writeText("suveen.ellawela@u.nus.edu").then(
       () => {
         setCopied(true);
-        toast("Email copied to clipboard! 📧", {
+        toast.success("Email copied to clipboard! ✉️", {
           position: "bottom-right",
-          duration: 8000,
+          duration: 3000,
         });
-        // changing back to default state after 2 seconds.
         setTimeout(() => {
           setCopied(false);
         }, 2000);
@@ -93,10 +92,12 @@ const Socials = () => {
         </a>
       </div>
       <p
-        className="text-sm font-medium mx-auto p-1 bg-lime-100 rounded-md cursor-pointer"
+        className="text-sm font-medium mx-auto p-1 px-2 bg-lime-100 rounded-md cursor-pointer"
         onClick={(event) => {
-          event.stopPropagation();
-          copyToClipboard();
+          if (!copied){
+            event.stopPropagation();
+            copyToClipboard();
+          }
         }}
       >
         suveen.ellawela@u.nus.edu
