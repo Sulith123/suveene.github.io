@@ -14,7 +14,7 @@ const OtherStuffSection = () => {
         <div className="flex flex-col my-auto justify-center gap-3">
           <div>
             <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md">
-              <div className="mx-auto md:mr-6 items-center">
+              <div className="mx-auto items-center">
                 <div className="font-bold my-2 mx-auto text-center">
                   Anything outdoors.{"\n"}
                 </div>
@@ -34,7 +34,7 @@ const OtherStuffSection = () => {
           </div>
           <div>
             <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md">
-              <div className="mx-auto md:mr-6 items-center">
+              <div className="mx-auto items-center">
                 <div className="font-bold my-2 mx-auto text-center">
                   Long walks.{"\n"}
                 </div>
@@ -80,7 +80,7 @@ const OtherStuffSection = () => {
             </div>
           </div>
           <div className="flex flex-col p-3 w-72 border-2 border-black rounded-md mx-auto">
-            <div className="mx-auto md:mr-6 items-center">
+            <div className="mx-auto items-center">
               <div className="font-bold my-2 mx-auto text-center">
                 I like to take PHOTOS!{"\n"}
               </div>
@@ -110,7 +110,7 @@ const OtherStuffSection = () => {
         <div className="flex flex-col my-auto justify-center gap-3">
           <div>
             <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md mx-auto">
-              <div className="mx-auto md:mr-6 items-center">
+              <div className="mx-auto items-center">
                 <div className="font-bold my-2 mx-auto text-center">
                   Ukelele.{"\n"}
                 </div>
@@ -135,7 +135,7 @@ const OtherStuffSection = () => {
           </div>
           <div>
             <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md mx-auto">
-              <div className="mx-auto md:mr-6 items-center">
+              <div className="mx-auto items-center">
                 <div className="font-bold my-2 mx-auto text-center">
                   Sports and Board Games.{"\n"}
                 </div>
