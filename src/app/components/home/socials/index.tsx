@@ -70,6 +70,7 @@ const Socials = () => {
           />{" "}
         </a>
       </div>
+      <p className="text-sm font-medium mx-auto p-1 bg-lime-100 rounded-md">suveen.ellawela@u.nus.edu</p>
     </>
   );
 };
