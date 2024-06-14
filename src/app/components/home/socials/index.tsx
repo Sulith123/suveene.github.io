@@ -1,7 +1,29 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
+import { toast } from "sonner";
 
 const Socials = () => {
+  const [copied, setCopied] = useState(false);
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText("suveen.ellawela@u.nus.edu").then(
+      () => {
+        setCopied(true);
+        toast("Email copied to clipboard! 📧", {
+          position: "bottom-right",
+          duration: 8000,
+        });
+        // changing back to default state after 2 seconds.
+        setTimeout(() => {
+          setCopied(false);
+        }, 2000);
+      },
+      (err) => {
+        console.log("failed to copy", err.mesage);
+      }
+    );
+  };
   return (
     <>
       <div className="flex flex-row gap-5 mx-auto">
@@ -70,7 +92,15 @@ const Socials = () => {
           />{" "}
         </a>
       </div>
-      <p className="text-sm font-medium mx-auto p-1 bg-lime-100 rounded-md">suveen.ellawela@u.nus.edu</p>
+      <p
+        className="text-sm font-medium mx-auto p-1 bg-lime-100 rounded-md cursor-pointer"
+        onClick={(event) => {
+          event.stopPropagation();
+          copyToClipboard();
+        }}
+      >
+        suveen.ellawela@u.nus.edu
+      </p>
     </>
   );
 };
