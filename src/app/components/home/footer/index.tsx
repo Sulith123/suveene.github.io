@@ -7,7 +7,7 @@ const Footer = () => {
       <Socials />
       <div className="p-2 pb-4 text-center">
         Built by{" "}
-        <a className="underline" href="#about-me">
+        <a className="underline" href="https://suveene.github.io/#about-me">
           Suveen
         </a>{" "}
         with Next.js and tailwind.
