@@ -2,6 +2,8 @@
 
 The website live at [suveene.github.io](https://suveene.github.io/)
 
+![Movie Locations](/public/pc-view.png)
+
 ## Quick Start
 
 ```bash
