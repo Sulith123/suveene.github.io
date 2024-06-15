@@ -112,7 +112,7 @@ const OtherStuffSection = () => {
             <div className="flex flex-col p-3 w-fit border-2 border-black rounded-md mx-auto">
               <div className="mx-auto items-center">
                 <div className="font-bold my-2 mx-auto text-center">
-                  Ukelele.{"\n"}
+                  Ukulele.{"\n"}
                 </div>
                 <p className="mx-auto my-2 text-center">
                   I am trying to learn these days.
