@@ -10,7 +10,10 @@ const Footer = () => {
         <a className="underline" href="https://suveene.github.io/#about-me">
           Suveen
         </a>{" "}
-        with Next.js and tailwind.
+        with Next.js and tailwind.{" "}
+        <a className="underline" href="https://github.com/SuveenE/suveene.github.io">
+          Use this template.
+        </a>{" "}
       </div>
     </div>
   );
