@@ -1,8 +1,11 @@
 ## Suveen's personal website
 
-The website live at [suveene.github.io](https://suveene.github.io/)
+The website live at [suveene.github.io](https://suveene.github.io/). 
 
-![Movie Locations](/public/pc-view.png)
+Feel free to clone this repository and use it for your personal website. If you find it useful, please leave a star or give credit to the template.
+You can adjust the wording and add new images to the `public` folder as needed.
+
+![PC view](/public/pc-view.png)
 
 ## Quick Start
 
