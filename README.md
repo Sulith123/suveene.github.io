@@ -1,11 +1,19 @@
 ## Suveen's personal website
 
-The website live at [suveene.github.io](https://suveene.github.io/). 
+The website live at [suveene.github.io](https://suveene.github.io/).
 
-Feel free to clone this repository and use it for your personal website. If you find it useful, please leave a star or give credit to the template.
-You can adjust the wording and add new images to the `public` folder as needed.
+Feel free to clone this repository and use it for your personal website. You can adjust the wording and add new images to the `public` folder as needed.
 
-![PC view](/public/pc-view.png)
+![PC view](/public/pcview.png)
+
+If you find it useful, <b>please leave a star</b> or <b>give credit to the template.</b>
+
+## Prerequisites
+
+Before starting, ensure you have the following installed on your system:
+
+1. **Node.js** (version 14.x or higher) - [Download Node.js](https://nodejs.org/)
+2. **Yarn** - [Install Yarn](https://yarnpkg.com/getting-started/install)
 
 ## Quick Start
 
@@ -17,7 +25,7 @@ $ git clone https://github.com/SuveenE/suveene.github.io.git
 $ cd suveene.github.io
 
 # install dependencies
-$ yarn
+$ yarn install
 
 # start development server
 $ yarn dev
