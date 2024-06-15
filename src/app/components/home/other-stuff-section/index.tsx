@@ -1,5 +1,4 @@
 import React from "react";
-import StuffCard from "../../stuff-card";
 import Image from "next/image";
 
 const OtherStuffSection = () => {
