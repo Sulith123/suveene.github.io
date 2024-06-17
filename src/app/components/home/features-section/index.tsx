@@ -59,7 +59,7 @@ const FeaturesSection = () => {
             target="_blank"
             className="underline"
           >
-            SIRASA Pentathalon Quiz Competition 2016
+            SIRASA Pentathlon Quiz Competition 2016
           </a>{" "}
         </p>
       </div>
