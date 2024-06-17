@@ -1,8 +1,9 @@
 ## Suveen's personal website
 
-The website live at [suveene.github.io](https://suveene.github.io/).
+The website is live at [suveene.github.io](https://suveene.github.io/).
 
 Feel free to clone this repository and use it for your personal website. You can adjust the wording and add new images to the `public` folder as needed.
+This website is optimized for both PCs and mobile devices.
 
 ![PC view](/public/pcview.png)
 
