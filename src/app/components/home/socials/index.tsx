@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { toast } from "sonner";
+import { ClipboardIcon, CopyIcon } from "lucide-react";
 
 const Socials = () => {
   const [copied, setCopied] = useState(false);
@@ -92,7 +93,7 @@ const Socials = () => {
         </a>
       </div>
       <p
-        className="text-sm font-medium mx-auto p-1 px-2 bg-lime-100 rounded-md cursor-pointer"
+        className="text-sm inline-flex gap-1 items-center font-medium mx-auto p-1 px-2 bg-lime-200 rounded-md cursor-pointer hover:bg-lime-300"
         onClick={(event) => {
           if (!copied){
             event.stopPropagation();
@@ -100,7 +101,7 @@ const Socials = () => {
           }
         }}
       >
-        suveen.ellawela@u.nus.edu
+        suveen.ellawela@u.nus.edu <CopyIcon size={14} />
       </p>
     </>
   );

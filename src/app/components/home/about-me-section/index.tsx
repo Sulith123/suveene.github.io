@@ -59,7 +59,7 @@ const AboutMeSection = () => {
             <span className="font-semibold">
               AI-powered in-depth qualitative interviews.
             </span>
-            <span className="font-semibold ml-1"><a
+            <span className="font-medium ml-1"><a
                 href="https://www.linkedin.com/feed/update/urn:li:activity:7208456112503685120/"
                 target="_blank"
                 className="relative text-sm inline-flex items-center transition-all px-2 rounded-sm bg-lime-300 text-black hover:bg-lime-500 gap-1"
