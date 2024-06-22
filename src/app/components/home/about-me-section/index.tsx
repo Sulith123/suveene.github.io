@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Socials from "../socials";
+import { ExternalLinkIcon } from "lucide-react";
 
 const AboutMeSection = () => {
   return (
@@ -57,6 +58,12 @@ const AboutMeSection = () => {
             , where we provide{" "}
             <span className="font-semibold">
               AI-powered in-depth qualitative interviews.
+            </span>
+            <span className="font-semibold ml-1"><a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7208456112503685120/"
+                target="_blank"
+                className="relative text-sm inline-flex items-center transition-all px-2 rounded-sm bg-lime-300 text-black hover:bg-lime-500 gap-1"
+              >Demo<ExternalLinkIcon size={14} /></a>
             </span>
           </p>
           <p className="mt-3">
